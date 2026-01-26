@@ -40,7 +40,7 @@ export default function Advertise() {
         >
           <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight text-[#171614]">
             Advertise with{" "}
-            <span className="text-[#00FF7C] font-extrabold">Fynsd</span>
+            <span className="text-[#00FF7C] font-extrabold">CashFlow</span>
           </h1>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
             Connect with{" "}

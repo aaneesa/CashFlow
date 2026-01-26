@@ -20,7 +20,7 @@ const FAQ: React.FC = () => {
       title: "Getting Started",
       faqs: [
         { q: "How do I start my financial literacy journey?", a: "Begin by exploring our 'Roadmaps' section. We recommend starting with the 'Personal Finance 101' path to build a strong foundation." },
-        { q: "Can I use Fynsd on my mobile phone?", a: "Absolutely! Fynsd is a Progressive Web App (PWA), meaning it works perfectly on all mobile browsers with a smooth, app-like experience." },
+        { q: "Can I use CashFlow on my mobile phone?", a: "Absolutely! CashFlow is a Progressive Web App (PWA), meaning it works perfectly on all mobile browsers with a smooth, app-like experience." },
         { q: "Is my personal data encrypted?", a: "Yes, we use industry-standard AES-256 encryption for all user data and secure SSL protocols for every interaction on the platform." }
       ]
     },

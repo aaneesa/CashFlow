@@ -8,7 +8,6 @@ const MainLayout: React.FC = () => {
 
   useEffect(() => {
     const checkAuth = (): void => {
-      // localStorage.getItem returns string | null
       const role: string | null = localStorage.getItem("role");
 
       // ⇝ Admin trying to access user page → redirect

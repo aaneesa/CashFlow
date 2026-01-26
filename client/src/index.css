@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
 
 
 /* index.css */
@@ -10,18 +12,20 @@ body {
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
   background: #000000;
+  color: #ffffff; /* Add this so text is visible */
 }
 
 .markdown-body {
-  color: #000000; /* gray-200 */
+  color: #f1f5f9; /* light gray or white */
   background: transparent;
 }
 
 .markdown-body h1,
 .markdown-body h2,
 .markdown-body h3 {
-  color: #000000; /* headings white */
+  color: #ffffff; /* headings visible */
 }
+
 
 .markdown-body code {
   background-color: rgba(55, 65, 81, 0.6); /* gray-700/60 */

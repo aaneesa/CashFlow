@@ -68,7 +68,7 @@ const About: React.FC = () => {
           />
           <div className="text-center md:text-left">
             <span className="text-xs uppercase tracking-[0.2em] text-[#00FF7C] font-bold">The Architect</span>
-            <h3 className="text-3xl font-bold mt-1">Mohit Dogaya</h3>
+            <h3 className="text-3xl font-bold mt-1">Aaruo</h3>
             <p className="text-gray-400 text-sm mb-4">Founder & Lead Developer</p>
             <p className="text-gray-300 leading-relaxed italic">
               "Cashflow was born out of a simple realization: everyone deserves to understand where their money goes. I built this to be the companion I wish I had when I started my financial journey."
