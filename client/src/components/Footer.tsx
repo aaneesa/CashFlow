@@ -5,7 +5,7 @@ import { Facebook, Instagram, Twitter, Linkedin, Youtube } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="relative z-10 bg-[#09332C] text-[#F3F3F2] border-t border-[#00FF7C]/20 py-12">
+    <footer className="relative z-10 bg-[#112a26] text-[#F3F3F2] border-t border-[#00FF7C]/20 py-12">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
         <div>
           <h3 className="text-lg font-semibold text-[#00FF7C] mb-3">
@@ -67,8 +67,8 @@ const Footer: React.FC = () => {
           <h3 className="text-lg font-semibold text-[#00FF7C] mb-3">
             Contact
           </h3>
-          <p className="text-sm">support@fynsd.com</p>
-          <p className="text-sm">+91 62685 41185</p>
+          <p className="text-sm">support@cashflow.com</p>
+          <p className="text-sm">+91 1122345690</p>
         </div>
 
         <div>
@@ -122,18 +122,14 @@ const Footer: React.FC = () => {
 
       <div className="text-center mt-10">
         <p className="text-[#F4FF00] text-sm italic font-medium">
-          “Fynsd – Learn with Clarity, Live with Prosperity.”
+          “CashFlow – Learn with Clarity, Live with Prosperity.”
         </p>
       </div>
 
       <div className="max-w-75 mx-auto text-center text-xs md:text-sm mt-10 border-t border-[#00FF7C]/20 pt-6 text-[#D4D4D4]">
         © {new Date().getFullYear()}{" "}
-        <span className="text-[#00FF7C] font-semibold">Fynsd</span>. All rights
+        <span className="text-[#00FF7C] font-semibold">CashFlow</span>. All rights
         reserved.
-      </div>
-
-      <div className="text-center text-9xl font-extrabold mt-10 fynsd-footer">
-        FYNSD
       </div>
     </footer>
   );

@@ -48,7 +48,7 @@ const Calculators: React.FC = () => {
           className="text-5xl md:text-6xl font-extrabold text-center mb-6"
         >
           FINANCE{" "}
-          <span className="bg-linear-to-r from-[#00FF7C] to-[#007755] bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-[#0bdd70] to-[#1c4237] bg-clip-text text-transparent flex justify-center">
             CALCULATORS
           </span>
         </motion.h1>
