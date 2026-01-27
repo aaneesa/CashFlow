@@ -74,7 +74,7 @@ export default function UserLogin(): JSX.Element {
         </h1>
         <p className="text-center text-gray-600 mb-8">
           Login to{" "}
-          <span className="text-[#00b76c] font-semibold">Fynsd</span>
+          <span className="text-[#00b76c] font-semibold">CashFlow</span>
         </p>
 
         <form onSubmit={submit} className="space-y-5">
@@ -123,7 +123,7 @@ export default function UserLogin(): JSX.Element {
         </div>
 
         <button
-          className="flex items-center mx-18 gap-2 border px-4 py-2 rounded-lg shadow-sm hover:shadow-md transition"
+          className="flex items-center text-gray-400 mx-18 gap-2 border px-4 py-2 rounded-lg shadow-sm hover:shadow-md transition"
           onClick={handleGoogleLogin}
         >
           <img

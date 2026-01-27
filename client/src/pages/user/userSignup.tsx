@@ -100,7 +100,7 @@ export default function UserSignup(): JSX.Element {
           Create New Account
         </h1>
         <p className="text-center text-gray-600 mb-8">
-          Join <span className="text-[#00b76c] font-semibold">Fynsd</span>
+          Join <span className="text-[#00b76c] font-semibold">CashFlow</span>
         </p>
 
         <form onSubmit={submit} className="space-y-5">

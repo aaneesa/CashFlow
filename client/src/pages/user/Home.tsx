@@ -171,7 +171,9 @@ export default function Home() {
           </p>
           <Link
             to="/knowledge"
-            className="px-8 py-4 bg-[#6abb91] text-[#09332C] hover:bg-[#567b68] rounded-3xl text-lg font-semibold shadow-lg hover:shadow-[#00FF7C]/50 transition"
+            className="px-8 py-4 bg-linear-to-r from-[#00FF7C] to-[#1d814d]
+           text-[#09332C] rounded-3xl text-lg font-semibold
+           shadow-lg hover:shadow-[#00FF7C]/50 transition-all"
           >
             Start Learning
           </Link>
@@ -437,7 +439,9 @@ export default function Home() {
           </p>
           <Link
             to="/knowledge"
-            className="px-8 py-4 bg-[#00FF7C] text-[#09332C] hover:bg-[#00e671] rounded-2xl text-lg font-semibold shadow-lg hover:shadow-[#00FF7C]/40 transition"
+            className="px-8 py-4 bg-linear-to-r from-[#00FF7C] to-[#1d814d]
+           text-[#09332C] rounded-3xl text-lg font-semibold
+           shadow-lg hover:shadow-[#00FF7C]/50 transition-all"
           >
             Explore Articles
           </Link>

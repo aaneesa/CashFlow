@@ -62,7 +62,7 @@ const Calculators: React.FC = () => {
         <div className="flex flex-wrap justify-center gap-3 mb-10">
           {calculators.map((calc, idx) => (
             <button
-              key={calc.name} // Using calc.name is better than index for keys
+              key={calc.name} 
               onClick={() => setActive(idx)}
               className={`px-5 py-2 rounded-2xl font-medium transition-all duration-300
                 ${
@@ -82,7 +82,7 @@ const Calculators: React.FC = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="bg-white shadow-md rounded-2xl p-8 border border-[#E7E7E3] hover:border-[#00FF7C]/50 hover:shadow-[#00FF7C]/20 transition"
+          className="bg-white rounded-2xl"
         >
           {/* Safe access with fallback */}
           {calculators[active]?.component || <div>Calculator not found</div>}
