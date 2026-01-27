@@ -61,11 +61,6 @@ const About: React.FC = () => {
 
         {/* Creator Card */}
         <section className="relative bg-linear-to-br from-[#0d0f10] to-[#1a1c1f] rounded-3xl p-10 border border-[#00FF7C]/20 shadow-2xl flex flex-col md:flex-row items-center gap-10 text-white">
-          <img 
-            // src="https://avatars.githubusercontent.com/u/000000?v=4" 
-            alt="Mohit" 
-            className="w-44 h-44 md:w-56 md:h-56 rounded-2xl object-cover border-2 border-[#00FF7C]/30" 
-          />
           <div className="text-center md:text-left">
             <span className="text-xs uppercase tracking-[0.2em] text-[#00FF7C] font-bold">The Architect</span>
             <h3 className="text-3xl font-bold mt-1">Aaruo</h3>

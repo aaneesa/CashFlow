@@ -21,31 +21,31 @@ const Navbar: React.FC = () => {
       <li>
         <Link to="/" className="relative group transition duration-200">
           Home
-          <span className="absolute left-0 -bottom-0.75 w-0 h-0.5 bg-[#4f705f] transition-all duration-300 group-hover:w-full"></span>
+          <span className="absolute left-0 -bottom-0.75 w-0 h-0.5 bg-[#36c97d] transition-all duration-300 group-hover:w-full"></span>
         </Link>
       </li>
       <li>
         <Link to="/knowledge" className="relative group transition duration-200">
           Knowledge
-          <span className="absolute left-0 -bottom-0.75 w-0 h-0.5 bg-[#4f705f] transition-all duration-300 group-hover:w-full"></span>
+          <span className="absolute left-0 -bottom-0.75 w-0 h-0.5  bg-[#36c97d] transition-all duration-300 group-hover:w-full"></span>
         </Link>
       </li>
       <li>
         <Link to="/roadmap" className="relative group transition duration-200">
           Roadmaps
-          <span className="absolute left-0 -bottom-0.75 w-0 h-0.5  bg-[#4f705f] transition-all duration-300 group-hover:w-full"></span>
+          <span className="absolute left-0 -bottom-0.75 w-0 h-0.5   bg-[#36c97d] transition-all duration-300 group-hover:w-full"></span>
         </Link>
       </li>
       <li>
         <Link to="/calculators" className="relative group transition duration-200">
           Calculators
-          <span className="absolute left-0 -bottom-0.75 w-0 h-0.5 bg-[#4f705f] transition-all duration-300 group-hover:w-full"></span>
+          <span className="absolute left-0 -bottom-0.75 w-0 h-0.5  bg-[#36c97d] transition-all duration-300 group-hover:w-full"></span>
         </Link>
       </li>
       <li>
         <Link to="/about" className="relative group transition duration-200">
           About
-          <span className="absolute left-0 -bottom-0.75 w-0 h-0.5 bg-[#4f705f] transition-all duration-300 group-hover:w-full"></span>
+          <span className="absolute left-0 -bottom-0.75 w-0 h-0.5  bg-[#36c97d] transition-all duration-300 group-hover:w-full"></span>
         </Link>
       </li>
     </>
@@ -54,9 +54,15 @@ const Navbar: React.FC = () => {
   return (
     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-white/30 border-b border-[#C6A969]/20 shadow-md">
       <nav className="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-8 py-3 md:py-4">
-        <Link to="/" className="text-2xl font-bold tracking-tight text-[#1d814d]">
-          CashFlow
-        </Link>
+      <Link
+        to="/"
+        className="text-2xl font-bold tracking-tight 
+                  bg-linear-to-r from-[#00FF7C] via-[#1d814d] to-[#0b3d2e]
+                  bg-clip-text text-transparent"
+      >
+        CashFlow
+      </Link>
+
 
         <ul className="hidden md:flex items-center gap-6 text-sm font-medium text-[#171614]">
           {NavLinks}
@@ -94,7 +100,7 @@ const Navbar: React.FC = () => {
               <li>
                 <Link
                   to="/user/login"
-                  className="px-4 py-2 rounded-4xl text-sm font-semibold text-[#171614] bg-[#8290bb] shadow hover:shadow-md hover:scale-105 transition-all duration-300"
+                  className="px-4 py-2 rounded-4xl text-sm font-semibold text-[#171614] bg-[#ffffff] border border-[#00FF7C]/70 shadow-sm hover:shadow-lg hover:scale-105 transition-all duration-300"
                 >
                   Login
                 </Link>
@@ -102,7 +108,7 @@ const Navbar: React.FC = () => {
               <li>
                 <Link
                   to="/user/signup"
-                  className="px-4 py-2 rounded-4xl text-sm font-semibold text-[#171614] bg-[#9aa6cc] shadow hover:shadow-md hover:scale-105 transition-all duration-300"
+                  className="px-4 py-2 rounded-4xl text-sm font-semibold text-[#171614] bg-[#ffffff] border border-[#00FF7C]/70 shadow hover:shadow-md hover:scale-105 transition-all duration-300"
                 >
                   Signup
                 </Link>
