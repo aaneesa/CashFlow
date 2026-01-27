@@ -8,7 +8,7 @@ import { UserProvider } from "./context/UserProvider";
 // Layouts
 import MainLayout from "./pages/user/MainLayout";
 import UserLayout from "./pages/user/UserLayout";
-import AdminLayout from "./pages/admin/Adminlayout";
+import AdminLayout from "./pages/admin/AdminLayout";
 
 // Common
 import NotFound from "./pages/common/NotFound";
