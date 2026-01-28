@@ -12,6 +12,10 @@ import "./config/passport.js";
 
 import googleAuthRoutes from "./routes/googleAuthRoutes.js";
 import authRoutes from "./routes/authRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
+import likeRoutes from "./routes/likeRoutes.js";
+import commentRoutes from "./routes/commentRoutes.js";
+import activityRoutes from "./routes/activityRoutes.js";
 import { requireAuth, requireUser, requireAdmin } from "./middlewares/authMiddleware.js";
 
 const app = express();
@@ -25,6 +29,11 @@ app.use(passport.initialize());
 
 app.use("/auth", googleAuthRoutes);
 app.use("/api/auth", authRoutes);
+app.use("/api/likes", likeRoutes);
+app.use("/api/comments", commentRoutes);
+app.use("/api/activity", activityRoutes);
+
+app.use("/api/user", requireAuth, requireUser, userRoutes);
 
 app.get("/health", (_, res) => res.json({ ok: true }));
 
